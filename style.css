@@ -1,0 +1,324 @@
+/*color
+Bright orange: hsl(31, 77%, 52%)
+darkyan: hsl(184, 100%, 22%)
+//ry dark cyan: hsl(179, 100%, 13%)
+
+//neutral
+// Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+// Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+
+
+//size
+//- Mobile: 375px
+//- Desktop: 1440px
+
+
+
+remember put media query
+
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.cardbg {
+
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
+
+.cardbody {
+
+    margin: 0;
+    padding: 50px 270px;
+
+}
+
+#card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0% 0% 2%;
+    margin: 0;
+    padding: 160px 60px;
+
+}
+
+#card2 {
+    border-radius: 0;
+    margin: 0;
+    padding: 160px 60px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+
+#card3 {
+    border-radius: 0% 2% 2% 0%;
+    margin: 0;
+    padding: 160px 60px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+/*button containers*/
+.btn1,
+.btn2,
+.btn3 {
+    margin-top: 30px;
+    margin-bottom: -110px;
+
+}
+
+
+/*button background color and size*/
+#button1 {
+    border: none;
+    color: hsl(31, 77%, 52%);
+    background: white;
+    border-radius: 17% / 50%;
+    margin-top: 43px;
+    padding: 9px 34px;
+}
+
+
+#button2 {
+    border: none;
+    color: hsl(184, 100%, 22%);
+    background: white;
+    border-radius: 17% / 50%;
+    margin-top: 43px;
+    padding: 9px 34px;
+}
+
+#button3 {
+    border: none;
+    color: hsl(179, 100%, 13%);
+    background: white;
+    border-radius: 17% / 50%;
+    margin-top: 43px;
+    padding: 9px 34px;
+}
+
+/*hover buttons*/
+
+#button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+#button2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+#button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+
+
+#icon {
+    margin-top: -160px;
+    margin-bottom: 70px;
+    margin-right: 170px;
+    padding-right: -50px;
+}
+
+.desc,
+.title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.desc {
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    opacity: 60%;
+}
+
+
+
+
+
+
+@media (max-width: 375px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+
+    }
+
+    .cardbg {
+
+        margin: 100px 0;
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+
+
+    .cardbody {
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #card1 {
+
+        background-color: hsl(31, 77%, 52%);
+        padding-top: 10px;
+        padding-bottom: 140px;
+        padding-left: 160px;
+        padding-right: 160px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        border-radius: 2% 2% 0% 0%;
+    }
+
+    #card2 {
+
+        background-color: hsl(184, 100%, 22%);
+        padding-top: 10px;
+        padding-bottom: 140px;
+        padding-left: 160px;
+        padding-right: 160px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    #card3 {
+        background-color: hsl(179, 100%, 13%);
+        padding-top: 10px;
+        padding-bottom: 140px;
+        padding-left: 160px;
+        padding-right: 160px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        border-radius: 0% 0% 2% 2%;
+    }
+
+    .textbody {
+        margin: 0 -130px;
+        padding: 20px;
+    }
+
+    #icon {
+        margin-top: 10px;
+        margin-right: -100px;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    img {
+        padding: 0;
+        margin: 0 -80px;
+    }
+
+    .desc,
+    .title {
+        margin-top: 0;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    .title {
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: bold;
+        font-size: 80px;
+        margin-top: -40px;
+        margin-bottom: 30px;
+    }
+
+    .desc {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400px;
+        font-size: 13px;
+        opacity: 60%;
+    }
+
+
+
+
+
+
+    /*button background color and size*/
+    #button1 {
+        border: none;
+        color: hsl(31, 77%, 52%);
+        background: white;
+        border-radius: 17% / 50%;
+        font-size: 13px;
+        margin: 0;
+        padding: 10px 25px;
+    }
+
+
+    #button2 {
+        border: none;
+        color: hsl(184, 100%, 22%);
+        background: white;
+        border-radius: 17% / 50%;
+        font-size: 13px;
+        margin: 0;
+        padding: 10px 25px;
+    }
+
+    #button3 {
+        border: none;
+        font-size: 13px;
+        color: hsl(179, 100%, 13%);
+        background: white;
+        border-radius: 17% / 50%;
+        margin: 0;
+        padding: 10px 25px;
+    }
+
+
+    #button1:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+    }
+
+    #button2:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+    }
+
+    #button3:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+    }
+
+
+
+
+
+
+
+}
